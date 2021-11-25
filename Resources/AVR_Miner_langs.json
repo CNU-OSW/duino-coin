@@ -45,7 +45,7 @@
         "accepted": " 승인됨 ",
         "block_found": " 블럭(block) 찾음 ",
         "rejected": " 거부됨 ",
-        "error_while_mining": " 채굴 중 오류 발생 - 연결 오류 가능성 높음 - 5초 후 재시작.",
+        "error_while_mining": " 채굴 중 오류 발생 - 연결 오류 가능성 높음 - 5초 내로 재시작.",
         "board_on_port": " AVR 포트에 탑재됨 ",
         "board_is_connected": " 연결됨",
         "board_connection_error": " 포트에서 AVR 연결 오류 발생  ",
