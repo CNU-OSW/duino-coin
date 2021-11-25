@@ -107,7 +107,7 @@
         "rig_identifier":"Rig 식별자: ",
         "basic_config_tool":"\nDuino-Coin 기본 도구\n편집 ",
         "edit_config_file_warning":"/Miner_config.cfg 파일을 변결하려면 나중에 변경 하십시오.",
-        "dont_have_account":"아직 Duino-Coin 계정이 없으신가요? 이걸 사용하세요 ",
+        "dont_have_account":"아직 Duino-Coin 계정이 없으신가요? 이걸 사용하세요",
         "wallet":"지갑",
         "register_warning":" 서버에 등록합니다.\n",
         "ask_username":"Duino-Coin 사용자 이름을 입력하세요: ",
