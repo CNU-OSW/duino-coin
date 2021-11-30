@@ -27,11 +27,15 @@
   <a href="https://github.com/revoxhere/duino-coin/blob/master/Resources/README_TRANSLATIONS/README_th_TH.md">
     <img src="https://img.shields.io/badge/-%E0%B9%84%E0%B8%97%E0%B8%A2-ff0092.svg?style=for-the-badge" /></a>
   <a href="https://github.com/revoxhere/duino-coin/blob/master/Resources/README_TRANSLATIONS/README_pt_BR.md">
-    <img src="https://img.shields.io/badge/-Portugu%C3%AAs-ff00ad.svg?style=for-the-badge" /></a>
+    <img src="https://img.shields.io/badge/-Portugu%C3%AAs-ff009a.svg?style=for-the-badge" /></a>
   <a href="https://github.com/revoxhere/duino-coin/blob/master/Resources/README_TRANSLATIONS/README_de_DE.md">
-    <img src="https://img.shields.io/badge/-Deutsch-ff00c8.svg?style=for-the-badge" /></a>
+    <img src="https://img.shields.io/badge/-Deutsch-ff00b2.svg?style=for-the-badge" /></a>
   <a href="https://github.com/revoxhere/duino-coin/blob/master/Resources/README_TRANSLATIONS/README_id_ID.md">
-    <img src="https://img.shields.io/badge/-bahasa Indonesia-ff0ae3.svg?style=for-the-badge" /></a>
+    <img src="https://img.shields.io/badge/-bahasa Indonesia-ff00ca.svg?style=for-the-badge" /></a>
+  <a href="https://github.com/revoxhere/duino-coin/blob/master/Resources/README_TRANSLATIONS/README_kr_KR.md">
+    <img src="https://img.shields.io/badge/한국어-ff0ae3.svg?style=for-the-badge" /></a>
+  <a href="https://github.com/revoxhere/duino-coin/blob/master/Resources/README_TRANSLATIONS/README_sk_SK.md">
+    <img src="https://img.shields.io/badge/slovensky-ff0ae3.svg?style=for-the-badge" /></a>
 </h1>
 <a href="https://wallet.duinocoin.com">
   <img src="https://img.shields.io/badge/Online Wallet-a202ff.svg?style=for-the-badge&logo=Web" /></a>
@@ -55,7 +59,7 @@
 
 | Key features | Technical specifications | (Some of many) supported boards |
 |-|-|-|
-| 💻 Supported by a large number of platforms<br>👥 A fast-growing community<br>💱 Easy to use & exchange<br>(on DUCO Exchange, Node-S, JustSwap, SushiSwap)<br>🌎 Available everywhere<br>:new: Fully original & open-source project<br>🌳 Beginner & eco-friendly<br>💰 Cost-effective & easy to mine | ⚒️ Algorithms: DUCO-S1, XXHASH,<br>more planned (including PoS)<br>♐ Rewards: supported by "Kolka system"<br>helping to reward miners fairly<br>⚡ Transaction time: Instant<br>🪙 Coin supply: Infinite<br>(before December 2020: 350k coins)<br>(new limits planned for the future)<br>🔤 Ticker: DUCO (ᕲ)<br>🔢 Decimals: up to 20 | ♾️ Arduinos<br>(Uno, Nano, Mega, Due, Pro Mini, etc.)<br>📶 ESP8266s<br>(NodeMCU, Wemos, etc.)<br>📶 ESP32s<br>(ESP-WROOM, ESP32-CAM, etc.)<br>🍓 Raspberry Pis<br>(1, 2, Zero (W/WH), 3, 4, Pico, 400)<br>🍊 Orange Pis<br>(Zero, Zero 2, PC, Plus, etc.)<br>⚡ Teensy 4.1 boards |
+| 💻 Supported by a large number of platforms<br>👥 A fast-growing community<br>💱 Easy to use & exchange<br>(on DUCO Exchange, Node-S, JustSwap, SushiSwap)<br>🌎 Available everywhere<br>:new: Fully original & open-source project<br>🌳 Beginner & eco-friendly<br>💰 Cost-effective & easy to mine | ⚒️ Algorithm: DUCO-S1<br>♐ Rewards: supported by "Kolka system"<br>helping to reward miners fairly<br>⚡ Transaction time: Instant<br>🪙 Coin supply: Infinite<br>(before December 2020: 350k coins)<br>(new limits planned for the future)<br>🔤 Ticker: DUCO (ᕲ)<br>🔢 Decimals: up to 20 | ♾️ Arduinos<br>(Uno, Nano, Mega, Due, Pro Mini, etc.)<br>📶 ESP8266s<br>(NodeMCU, Wemos, etc.)<br>📶 ESP32s<br>(ESP-WROOM, ESP32-CAM, etc.)<br>🍓 Raspberry Pis<br>(1, 2, Zero (W/WH), 3, 4, Pico, 400)<br>🍊 Orange Pis<br>(Zero, Zero 2, PC, Plus, etc.)<br>⚡ Teensy 4.1 boards |
 
 
 ## Getting started
@@ -129,7 +133,7 @@ Server source code, documentation for API calls and official libraries for devel
   | NodeMCU, Wemos D1 etc.<br>(ESP8266)                       | 10 kH/s (160MHz) 4.9 kH/s (80Mhz) | 1                 | 0.6 W          | 6-7                 |
   | ESP32                                                     | 33 kH/s                           | 2                 | 1 W            | 8-9                 |
   | Raspberry Pi Zero                                         | 18 kH/s                           | 1                 | 1.1 W          | -                   |
-  | Raspberry Pi 3                                            | 440 kH/s                          | 4                 | 5.1 W          | -                   |
+  | Raspberry Pi 3                                            | 440 kH/s                          | 4                 | 5.1 W          | 4-5                 |
   | Raspberry Pi 4                                            | 740 kH/s (32bit)                  | 4                 | 6.4 W          | 10                  |
   | ODROID XU4                                                | 1.0 MH/s                          | 8                 | 5 W            | 9                   |
   | Atomic Pi                                                 | 690 kH/s                          | 4                 | 6 W            | -                   |
@@ -138,13 +142,13 @@ Server source code, documentation for API calls and official libraries for devel
   | Libre Computers Tritium H5CC                              | 480 kH/s                          | 4                 | 5 W            | -                   |
   | Libre Computers Le Potato                                 | 410 kH/s                          | 4                 | 5 W            | -                   |
   | Pine64 ROCK64                                             | 640 kH/s                          | 4                 | 5 W            | -                   |
-  | Intel Celeron G1840                                       | 1.25 MH/s                         | 2                 | -              | 5-6                 |
+  | Intel Celeron G1840                                       | 1.25 MH/s                         | 2                 | -              | 3.3                 |
   | Intel Core i5-2430M                                       | 1.18 MH/s                         | 4                 | -              | 6.5                 |
   | Intel Core i5-3230M                                       | 1.52 MH/s                         | 4                 | -              | 7.2                 |
   | Intel Core i5-5350U                                       | 1.35 MH/s                         | 4                 | -              | 6.0                 |
   | Intel Core i5-7200U                                       | 1.62 MH/s                         | 4                 | -              | 7.5                 |
   | Intel Core i5-8300H                                       | 3.67 MH/s                         | 8                 | -              | 9.1                 |   
-  | Intel Core i3-4130                                        | 1.45 MH/s                         | 4                 | -              | -                   |
+  | Intel Core i3-4130                                        | 1.45 MH/s                         | 4                 | -              | 3.7                 |
   | AMD Ryzen 5 2600                                          | 4.9 MH/s                          | 12                | 67 W           | 15.44               |
 
   All tests were performed using the DUCO-S1 algorithm. This table will be actively updated.
@@ -158,7 +162,7 @@ Server source code, documentation for API calls and official libraries for devel
     Since that list is getting really long, it's collapsed by default. Click this text to expand it
   </summary>
   
-  Please note that these softwares are not developed by us and we do not give any guarantees that use of them will not result in an account getting banned. Treat them as a curiosity.
+  Please note that these softwares are not developed by us and we do not give any guarantees that use of them will not result in an account getting banned. Treat them as a curiosity. It's worth noting that using [nonceMiner](https://github.com/colonelwatch/nonceMiner) by colonelwatch **will get you banned**.
 
   ### Other miners known to work with Duino-Coin:
   *   [DuinoCoinbyLabVIEW](https://github.com/ericddm/DuinoCoinbyLabVIEW) - miner for LabVIEW family by ericddm
@@ -172,7 +176,6 @@ Server source code, documentation for API calls and official libraries for devel
   *   [ESPython DUCO Miner](https://github.com/fabiopolancoe/ESPython-DUCO-Miner) - MicroPython miner for ESP boards by fabiopolancoe
   *   [DUCO Miner for Nintendo 3DS](https://github.com/BunkerInnovations/duco-3ds) - Python miner for Nintendo 3DS by PhereloHD & HGEpro
   *   [Dockerized DUCO Miner](https://github.com/Alicia426/Dockerized_DUCO_Miner_minimal) - Miner in Docker by Alicia426
-  *   [nonceMiner](https://github.com/colonelwatch/nonceMiner) - Fastest Duino-Coin miner available by colonelwatch
   *   [NodeJS-DuinoCoin-Miner](https://github.com/DarkThinking/NodeJS-DuinoCoin-Miner/) - simple NodeJS miner by DarkThinking
   *   [d-cpuminer](https://github.com/phantom32-0/d-cpuminer) - pure C miner by phantom32 & revoxhere
   *   [Go Miner](https://github.com/yippiez/go-miner) by yippiez
@@ -181,10 +184,10 @@ Server source code, documentation for API calls and official libraries for devel
       *   [Julia Miner](https://github.com/revoxhere/duino-coin/blob/master/Unofficial%20miners/Julia_Miner.jl) by revoxhere
       *   [Ruby Miner](https://github.com/revoxhere/duino-coin/blob/master/Unofficial%20miners/Ruby_Miner.rb) by revoxhere
       *   [Minimal Python Miner (DUCO-S1)](https://github.com/revoxhere/duino-coin/blob/master/Unofficial%20miners/Minimal_PC_Miner.py) by revoxhere
-      *   [Minimal Python Miner (XXHASH)](https://github.com/revoxhere/duino-coin/blob/master/Unofficial%20miners/Minimal_PC_Miner_XXHASH.py) by revoxhere
       *   [Teensy 4.1 code for Arduino IDE](https://github.com/revoxhere/duino-coin/blob/master/Unofficial%20miners/Teensy_code/Teensy_code.ino) by joaquinbvw
 
   ### Other tools:
+  *   [DUINO Mining Rig](https://repalmakershop.com/pages/duino-mining-rig) - 3D files, PCB designs and instructions for creating your own Duino rig by ReP_AL
   *   [DuinoCoin-balance-Home-Assistant](https://github.com/NL647/DuinoCoin-balance-Home-Assistant) - addon for home assistant displaying your balance by NL647
   *   [Duino Coin Status Monitor](https://github.com/TSltd/duino_coin) for 128x64 SSD1306 OLED and ESP8266 by TSltd
   *   [ducopanel](https://github.com/ponsato/ducopanel) - a GUI app for controling your Duino-Coin miners by ponsato
@@ -231,7 +234,7 @@ Some third-party included files may have different licenses - please check their
 
 ## Terms of service
 1. Duino-Coins ("DUCOs") are earned by miners with a process called mining.<br/>
-2. Mining is described as using DUCO-S1 (and XXHASH) algorithm (as explained in the <a href="https://github.com/revoxhere/duino-coin/blob/gh-pages/assets/whitepaper.pdf">Duino-Coin Whitepaper</a>), in which finding a correct result to a mathematical problem gives the miner a reward.<br/>
+2. Mining is described as using DUCO-S1 algorithm (as explained in the <a href="https://github.com/revoxhere/duino-coin/blob/gh-pages/assets/whitepaper.pdf">Duino-Coin Whitepaper</a>), in which finding a correct result to a mathematical problem gives the miner a reward.<br/>
 3. Mining can be officially done using CPUs, AVR boards (e.g. Arduino boards), Single-board computers (e.g. Raspberry Pi boards), ESP32/8266 boards with the usage of official miners (other officially allowed miners are described in the upper part of README).<br/>
 4. Mining on GPUs, FPGAs and other high-efficiency hardware is allowed, but using only the `EXTREME` mining difficulty.<br/>
 5. Any users using miners on difficulty not suited for their hardware (see the <a href="https://github.com/revoxhere/duino-coin/tree/useful-tools#socket-api">difficulty list</a>) will be automatically throttled by being moved to correct difficulty tier.<br/>
