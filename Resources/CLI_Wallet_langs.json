@@ -165,7 +165,7 @@
     "trx_balance": "TRX 잔액 (수수료에 유용): ",
 
     "how_encrypt_private_key": "구성파일 내에서 개인 키를 암호화하시겠습니까?",
-      "encryption_choice": "1 - DUCO 암호를 이용하여 암호화 \n2 - 사용자 지정 암호 사용 (더 안전함)",
+     "encryption_choice": "1 - DUCO 암호를 이용하여 암호화 \n2 - 사용자 지정 암호 사용 (더 안전함)",
 
     "amount_to_wrap": "wrap할 액수를 입력하세요(최소 10개): ",
     "no_amount_numeric": "잘못된 입력입니다. 액수는 숫자여야 합니다.. 중단중",
